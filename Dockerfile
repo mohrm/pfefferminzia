@@ -1,1 +1,1 @@
-FROM ghcr.io/mohrm/traktorgaehn:0.1.0
+FROM ghcr.io/mohrm/traktorgaehn:sha256-af783cd31e3e10b412a55b1a7b3a7371d637a476d6210851e820ff2f23aa7bf1.sig

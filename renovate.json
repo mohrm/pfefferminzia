@@ -9,7 +9,7 @@
   "packageRules": [
   {
     "matchDatasources": ["docker"],  
-    "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))(-beta(?<prerelease>\\d+)(\\.(?<build>\\d+))?)?$"
+    "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))(-beta(?<revision>\\d+)(\\.(?<build>\\d+))?)?$"
   }
   ]
 }

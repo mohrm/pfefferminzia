@@ -9,7 +9,7 @@
   {
     "matchDatasources": ["docker"],  
     "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))((?<prerelease>-beta)(?<build>\\d+)(\.(?<revision>\\d+))?)?$",
-    "ignoreUnstable": "false"
+    "ignoreUnstable": false
   }
   ]
 }

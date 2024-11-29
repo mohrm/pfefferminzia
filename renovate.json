@@ -5,11 +5,11 @@
     ":dependencyDashboard",
     ":prHourlyLimitNone"
   ],
+  "ignoreUnstable": false,
   "packageRules": [
   {
     "matchDatasources": ["docker"],  
-    "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))((?<prerelease>-beta)(?<build>\\d+)(\.(?<revision>\\d+))?)?$",
-    "ignoreUnstable": false
+    "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))((?<prerelease>-beta)(?<build>\\d+)(\.(?<revision>\\d+))?)?$"
   }
   ]
 }

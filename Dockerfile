@@ -1,1 +1,1 @@
-FROM ghcr.io/mohrm/traktorgaehn:0.3.0-beta1
+FROM ghcr.io/mohrm/traktorgaehn:0.3.0-beta1.1

@@ -5,6 +5,7 @@
     ":dependencyDashboard",
     ":prHourlyLimitNone"
   ],
+  "ignoreUnstable": false,
   "packageRules": [
   {
     "matchDatasources": ["docker"],  

@@ -9,5 +9,14 @@
     "matchDatasources": ["docker"],  
     "versioning": "semver"
   }
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "fileMatch": ["^Dockerfile$"],
+      "matchStrings": ["FROM (?:(?<depName>.+?):(?:.+))\\s+ARG VERSION=(?<currentValue>.+)"],
+      "datasourceTemplate": "docker",
+      "versioningTemplate": "semver"
+    }
   ]
 }

@@ -14,7 +14,7 @@
     {
       "customType": "regex",
       "fileMatch": ["^Dockerfile$"],
-      "matchStrings": ["FROM (?:(?<depName>.+?):(?:.+))\\s+ARG VERSION=(?<currentValue>.+)"],
+      "matchStrings": ["FROM (?:(?<depName>.+?):(?:.+))\\s+ARG VERSION=(?<currentValue>.+)-SNAPSHOT"],
       "datasourceTemplate": "docker",
       "versioningTemplate": "semver"
     }
